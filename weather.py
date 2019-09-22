@@ -3,7 +3,6 @@ import requests
 def weather_by_city(city_name):
     weather_url = 'http://api.worldweatheronline.com/premium/v1/weather.ashx'
     params = {
-        "key": "97055bf6ef144b11a59201042192209",
         "q": city_name,
         "format": "json",
         "num_of_days": 1,
